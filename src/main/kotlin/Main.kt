@@ -1,5 +1,6 @@
 fun main() {
-    plusOne(intArrayOf(1,2,3))
+//    plusOne(intArrayOf(1,2,3))
+    print(NumberToWords.numberToWords(111111))
 }
 fun plusOne(digits: IntArray): IntArray {
     println("digits[i]=${digits[0]}   digits.size -1=${digits.size -1}")
